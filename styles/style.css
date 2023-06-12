@@ -163,6 +163,9 @@
   color: #2f80ed;
   text-decoration: none;
 }
+.events__more:hover {
+  color: #1f69c9;
+}
 
 .events__cover {
   flex-grow: 1;
@@ -256,28 +259,29 @@
   color: #fff;
 }
 
-.staff_list {
+.staff__cards {
   max-width: 760px;
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
   margin-top: 68px;
   align-items: center;
+  gap: 40px;
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
 }
 .card {
   background-color: #fff;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
-  height: 360px;
-  width: 420px;
-  flex: 50%;
+  height: 420px;
+  width: 360px;
+  /* flex: 50%;  */
   list-style-type: none;
   align-items: center;
   display: inline-flex;
   flex-wrap: wrap;
-  gap: 40px;
 }
 .card__content {
   width: 100%;
@@ -304,6 +308,7 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
+  margin-top: auto;
 }
 
 .membership {
@@ -431,11 +436,8 @@
 }
 
 .footer__logo {
-  background-image: url("../images/logo_white.png");
   width: 116px;
   height: 21px;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .footer__list {
