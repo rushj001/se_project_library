@@ -417,8 +417,7 @@
 }
 
 .footer__column {
-  width: 116;
-
+  width: 116px;
 }
 
 .footer__column_content_hours {
@@ -456,7 +455,6 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0 0 20px 0;
-
 }
 
 .footer__column-link {
