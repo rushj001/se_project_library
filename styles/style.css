@@ -414,25 +414,19 @@
 
 .footer__columns {
   display: flex;
-  flex-direction: column;
 }
 
 .footer__column {
-  width: 116px;
+  width: 116;
+
 }
 
 .footer__column_content_hours {
-  bottom: 0;
-  right: 200px;
-  width: 300px;
-  position: absolute;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
-  bottom: 0;
-  right: 0;
-  width: 300px;
-  position: absolute;
+  margin-left: 100px;
 }
 
 .footer__logo {
@@ -452,13 +446,17 @@
   color: white;
   font-size: 16px;
   line-height: 20px;
+  margin-bottom: 16px;
+
+  justify-content: flex-end;
 }
 
 .footer__column-heading {
-  color: cyan;
+  color: white;
   font-size: 16px;
   line-height: 20px;
-  padding: 0px 0px 60px 0px;
+  margin: 0 0 20px 0;
+
 }
 
 .footer__column-link {
@@ -466,6 +464,8 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+
+  align-items: center;
 }
 
 .footer__social-icon {
@@ -479,14 +479,10 @@
   color: white;
   font-size: 16px;
   line-height: 20px;
-  position: absolute;
-  width: 100%;
   text-align: left;
   bottom: 0;
+  margin-top: 68px;
 }
 .footer__column-link:hover {
   color: #c1c1c1;
-}
-body {
-  overflow-x: hidden;
 }
