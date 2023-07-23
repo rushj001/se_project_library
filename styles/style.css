@@ -21,7 +21,6 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  /* Add flex properties here */
 }
 
 .logo {
@@ -30,7 +29,6 @@
 }
 
 .nav__links {
-  /* Reset default list styles here */
   display: flex;
   justify-content: flex-end;
   margin: 8px 0 0;
@@ -195,25 +193,21 @@
 .person_name_burbidge {
   top: 96px;
   right: 125px;
-  /* Use correct values of top/right/bottom/left properties to position the element */
 }
 
 .person_name_cannon {
   bottom: 18px;
   right: 216px;
-  /* Use correct values of top/right/bottom/left properties to position the element */
 }
 
 .person_name_mitchell {
   bottom: 82px;
   left: 142px;
-  /* Use correct values of top/right/bottom/left properties to position the element */
 }
 
 .person_name_tarter {
   top: 79px;
   left: 159px;
-  /* Use correct values of top/right/bottom/left properties to position the element */
 }
 
 .person__image {
@@ -277,7 +271,6 @@
   box-sizing: border-box;
   height: 420px;
   width: 360px;
-  /* flex: 50%;  */
   list-style-type: none;
   align-items: center;
   display: inline-flex;
@@ -334,8 +327,6 @@
   align-items: center;
   flex-basis: 220px;
   gap: 40px;
-
-  /* Add styles */
 }
 
 .step {
@@ -344,7 +335,6 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  /* Add styles */
 }
 
 .step__title {
@@ -434,7 +424,6 @@
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -446,7 +435,6 @@
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 16px;
-
   justify-content: flex-end;
 }
 
